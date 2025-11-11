@@ -1,8 +1,8 @@
 # Kevin Chen
 **Email:** kec050@ucsd.edu
 
-**Section:** [Your section name/number]  
-**Mentor:** [Your mentor's name]
+**Section:** B16, Agentic Applications and Knowledge Graphs in Life Sciences  
+**Mentors:** Abed El-Husseini, Balaji Veeramani
 
 ---
 
