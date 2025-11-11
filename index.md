@@ -31,5 +31,5 @@ The improved system would allow the agent to engage users conversationally by as
 
 **4. What other techniques would you be interested in using in your project?**
 
-I would be interested in adding capabilities that combines knowledge graphs with retrieval-augmented generation from scientific literature. Currently, the system only queries structured data in the Neo4j knowledge graph. By integrating RAG, the agent could search biomedical literature databases like PubMed to retrieve relevant research papers that provide context, evidenc, and explanations for the relationships found in the graph.
+I would be interested in adding capabilities that combines knowledge graphs with retrieval-augmented generation from scientific literature. Currently, the system only queries structured data in the Neo4j knowledge graph. By integrating RAG, the agent could search biomedical literature databases like PubMed to retrieve relevant research papers that provide context, evidence, and explanations for the relationships found in the graph.
 
