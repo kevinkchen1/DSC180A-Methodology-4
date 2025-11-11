@@ -6,7 +6,7 @@
 
 ---
 
-## Quarter 2 Project Brainstorming
+## Quarter 2 Project Proposal Brainstorming
 
 **1. What is the most interesting topic covered in your domain this quarter?**
 
@@ -24,8 +24,12 @@ This project would combine  natural language processing, information retrieval, 
 
 **3. What is a potential change you'd make to the approach taken in your current Quarter 1 Project?**
 
+Based on my current Quarter 1 project, one significant improvement I would make is implementing interactive query refinement through multi-turn conversations rather than the current one-shot question-answering approach. Currently, when a user asks a question like "What genes are linked to diabetes?", the system returns all matching results in a single response. However, biomedical researchers usually work iteratively and refine their queries based on initial findings. 
+
+The improved system would allow the agent to engage users conversationally by asking clarifying questions when results are too broad. For example, if the initial query returns 100 genes, the agent could respond: "I found 100 diabetes-related genes. Would you like to filter by diabetes type (Type 1 vs Type 2), confidence level, or specific chromosomes?" Based on the user's response, the agent would refine the Cypher query and narrow results progressively. This approach would better represent actual research workflows, makes the system more useful for exploratory analysis.
 
 
 **4. What other techniques would you be interested in using in your project?**
 
-Your answer here...
+I would be interested in adding capabilities that combines knowledge graphs with retrieval-augmented generation from scientific literature. Currently, the system only queries structured data in the Neo4j knowledge graph. By integrating RAG, the agent could search biomedical literature databases like PubMed to retrieve relevant research papers that provide context, evidenc, and explanations for the relationships found in the graph.
+
